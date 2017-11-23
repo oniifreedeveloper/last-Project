@@ -1,0 +1,532 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'News Cycle', sans-serif;
+	min-width: 1300px;
+	background-color: rgb(238,238,238);
+}
+.TopHeader {
+	width: 100%;
+	margin:0 auto;
+	height: 61px;
+	background-color:rgb(241,241,241);
+	padding-left: 31px;
+	padding-right: 31px;
+	
+}
+.InTopHeader1{
+
+	margin-top: 2px;
+	width: calc(50%-31px);
+	float: left;
+	text-align: center;
+
+}
+.InTopHeader1 a{
+	font-size: 30px;
+	font-weight: 900;
+	color:rgb(111,111,111);
+	margin-right: 29px;
+}
+.InTopHeader1 a:hover{
+	text-decoration: none;
+}
+.InTopHeader1 img{
+	width: 45px;	
+	height: 53px;
+}
+.InTopHeader1 input[type="text"]{
+
+	width:590px;
+}
+.InTopHeader1 button{
+	margin-left: -5px;
+	padding:2px 0;
+	width: 58px;
+	border:1px solid rgb(68,133,244);
+	background-color:rgb(68,133,244);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.InTopHeader2{
+	width: calc(50%-31px);
+	float: right;
+	text-align: center;
+	margin-top: 15px;
+}
+.InTopHeader2 ul{
+	margin:0;
+	padding: 0;
+}
+.InTopHeader2 a{
+	text-decoration: none;
+	text-align: center;
+}
+.InTopHeader2 input{
+	width: 69px;
+	background-color:rgb(68,133,244);
+	border:1px solid rgb(68,133,244);
+	margin-left: 22px;
+	height: 31px;
+	border-radius: 2px;
+	font-weight: 600;
+	color:white;
+
+
+}
+.NextTopHeader {
+	width: 100%;
+	height:48px;
+	background-color:rgb(255,255,255);
+	position: relative;
+}
+.NextTopheaderRight {
+	float: right;
+	margin-top:9px;
+	margin-right: 40px;
+}
+.NextTopheaderRight button{
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	height: 30px;
+	background-color:white;
+	margin-left: 18px;
+}
+.NextTopheaderRight button:hover{
+	box-shadow: 0px 1px 0px #9e9e9e;
+	border-color: #9e9e9e;
+}
+.NextTopheaderRight .overme:hover{
+	cursor:pointer; 
+
+}
+.OverNextTopHeader{
+	width:200px;
+	height: 315px;
+	top: 0%;
+	left: 0;
+	border:1px solid #ccc;
+	position: absolute;
+	box-shadow: 0px 0px 2px #9e9e9e;; 
+}
+.NextOverNextTopHeader {
+	width: 100%;
+	height: 48px;
+	background-color:rgb(68,68,68);
+}
+.NextOverNextTopHeader:hover{
+	cursor: pointer;
+}
+.NextOverNextTopHeader p{
+	padding-top:7px;
+	font-weight: 500;
+	padding-left: 33px;
+}
+.NextOverNextTopHeader a{
+color:white;
+font-size:20px;
+text-decoration: none;
+
+}
+.ThenOver{
+	width: 100%;
+}
+
+
+.ThenOver1{
+	float: left;
+	height: 48px;
+	width: 65px;
+	background-color:rgb(104,159,56);
+}
+.ThenOver1 i{
+	font-size: 30px;
+	padding-left: 30px;
+	color:white;
+	padding-top: 5px;
+}
+.ThenOver2{
+	float: right;
+	height: 48px;
+	width: calc(100% - 65px);
+	
+}
+.ThenOver2:hover{
+	background-color:rgb(104,159,56);
+
+}
+.ThenOver2 h5{
+	color:#757575;
+	font-weight: 550;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+.AfterOver{
+	width: 100%;
+}
+
+
+.AfterOver1{
+	float: left;
+	height: 48px;
+	width: 65px;
+	background-color:rgb(237,59,59);
+}
+.AfterOver1 i{
+	font-size: 20px;
+	padding-left: 30px;
+	color:white;
+	padding-top: 13px;
+}
+.AfterOver2{
+	float: right;
+	height: 48px;
+	width: calc(100% - 65px);
+	
+}
+.AfterOver2:hover{
+	background-color:rgb(237,59,59);
+
+}
+.AfterOver2 h5{
+	color:#757575;
+	font-weight: 550;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.IMNow{
+	padding-top:12px;
+	padding-bottom:12px;
+}
+.IMNow a:hover{
+ text-decoration: none;
+}
+.IMNow p {
+	margin:0;
+	padding:0;
+}
+.ButtonOver{
+	height: 30px;
+	width: 100%;
+}
+.ButtonOver p{
+	margin-left: 28px; 
+	color:black;
+	font-weight: 550;
+}
+.ButtonOver:hover{
+	background-color: #e0e0e0;
+}
+.BoderThrough{
+	width:1530px;
+	height:1000px;
+	margin:0 auto;
+	margin-left: 254px;
+	background-color:238,238,238;
+
+}
+.TopThrough{
+	width: 100%;
+	float: left;
+
+}
+.TopThrough a:hover{
+	text-decoration: none;
+}
+.TopThrough h2{
+	padding-top: 30px;
+	margin-top: 0;
+	color:black;
+}
+
+.TopThrough p{
+	margin-top: 0;
+	padding: 0;
+	color:black;
+}
+
+.Container{
+	width: 100%;
+}
+.Container h5{
+	margin:0;
+	padding:0;
+	color:black;
+}
+.Container p{
+	color:black;
+}
+
+.BoxShow{
+	height: 330px;
+	width: 160px;
+	float: left;
+	background-color:rgb(255,255,255);
+	position: relative;
+	margin-right:10px;
+}
+.BoxShow:last-child{
+	margin-right:0;
+}
+.BoxShow:hover{
+	cursor: pointer;
+
+}
+.BoxShow img{
+	width:100%;
+	height: 245px;
+}
+.TransparencyOver {
+	width: 100%;
+	height: 245px;
+	background-color:rgba(0,0,0,0.4);
+	top: 0;
+	left: 0;
+	position:absolute;
+	display: none;
+
+}
+.TransparencyOver i{
+	margin-top: 200px;
+	margin-left: 10px;
+	font-size: 35px;
+	color:white;
+
+}
+.BoxShow:hover .TransparencyOver{
+	display: inline;
+}
+.lastStar{
+	margin-top: -5px;
+}
+.lastStar i{
+	font-size: 12px;
+	color:#333;
+}
+.lastStar p{
+	display: inline;
+	color:#ed3b3b;
+	margin-left: 30px;
+}
+.NextDive{
+	margin: 0 auto;
+	width:100%;
+}
+.NextDivLeft{
+	float: left;
+	width: 50%;
+	margin-top: 20px;
+}
+.NextDivLeft a{
+	color:#333;
+}
+.NextDivLeft h2{
+	color:#333;
+}
+.NextDivLeft p{
+	color:#333;
+}
+.NextDivLeft a:hover{
+	text-decoration:none;
+}
+.NextDiveRight{
+	width: 50%;
+	float: right;
+	margin-top: 20px;
+}
+.NextDiveRight input[type="button"]{
+	margin-left: 670px;
+	margin-top:35px;
+	height: 30px;
+	width: 85px;
+	background-color:#689f38;
+	color:white;
+	border:1px solid #689f38;
+	font-weight: 500;
+	border-radius: 2px;
+}
+.NextDiveRight input:hover{
+	cursor: pointer;
+	box-shadow: 0 0 1px black;
+
+}
+.NexContainer{
+	width: 100%;
+
+}
+.NextBoxContainer{
+	width: 160px;
+	margin-right:10px;
+	height: 245px;
+	background-color:rgb(255,255,255);
+	float: left;
+	position:relative;
+}
+.NextBoxContainer:hover .nextBoxHover{
+	display: inline;
+}
+.FullMeOut{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.FullMeOut h5{
+	margin-left: 10px;
+}
+.FullMeOut p{
+	padding:0;
+	margin-left: 10px;
+	margin-top:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+.NextBoxContainer img{
+	width:100%;
+}
+.StarNextBox i:first-child{
+margin-left: 10px;
+	color:#333;
+font-size:12px;
+margin-top:  20px;
+}
+.StarNextBox i{
+	color:#333;
+font-size:12px;
+margin-top:  20px;
+}
+.StarNextBox p{
+	margin-left:50px;
+	display:inline;
+	color:#689f38;
+}
+.nextBoxHover{
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	background-color:rgba(0,0,0,0.4);
+	display: none;
+}
+.ShortStyle{
+	width: 1352px;
+	margin:0;
+}
+.Shortleft{
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+	margin-bottom:20px;
+}
+.ShortRight{
+	margin-top: 20px;
+	width: 50%;
+	float: right;
+	margin-bottom:20px;
+}
+.ShortRight input{
+	margin-left: 590px;
+	height: 30px;
+	width: 85px;
+	background-color:#689f38;
+	color:white;
+	border:1px solid #689f38;
+	font-weight: 500;
+	border-radius: 2px;
+	text-align: center;
+}
+.ShortRight input:hover{
+cursor: pointer;
+box-shadow: 0 0 1px black;
+}
+.shortest{
+	width: 1190px;
+}
+.Nextshortestleft{
+	width: 50%;
+	float: left;
+
+}
+.Nextshortestleft a:hover{
+text-decoration:none;
+}
+.Nextshortestleft h2{
+	color:#333;
+}
+.Nextshortestright{
+	width: 50%;
+	float: right;
+}
+
+.Nextshortestright input{
+	margin-top: 30px;
+	margin-left: 500px;
+	height: 30px;
+	width: 85px;
+	background-color:#689f38;
+	color:white;
+	border:1px solid #689f38;
+	font-weight: 500;
+	border-radius: 2px;
+	text-align: center;
+}
+.Nextshortestright input:hover{
+	cursor: pointer;
+box-shadow: 0 0 1px black;
+}
+.LastDive{
+	padding-top:30px;
+	padding-bottom: 100px;
+	float: left;
+}
+.LastDive a{
+	color:#333;
+}
+.LastDive ul li{
+	list-style: none;
+	float: right;
+	margin-right:15px;
+	color:#333;
+}
+
+@media screen and (max-width:1900px){
+	.BoderThrough{
+		width: 1530px;
+	}
+	.BoxShow,.NextBoxContainer.{
+		width: 11.11%;
+	}
+}
+@media screen and (max-width:1800px){
+	.BoderThrough{
+		width: 1352px;
+	}
+	.BoxShow,.NextBoxContainer{
+		width: 12.5%;
+	}
+}
+
+@media screen and (max-width:1660px){
+	.BoderThrough{
+		width: 1180px;
+	}
+	.BoxShow,.NextBoxContainer{
+		width: 14.28%;
+	}
+}
+@media screen and (max-width:1490px){
+	.BoderThrough{
+		width: 1010px;
+	}
+	.BoxShow,.NextBoxContainer{
+		width: 16.68%;
+	}
+}
+@media screen and (max-width:1340px){
+	.BoderThrough{
+		width: 850px;
+	}
+	.BoxShow,.NextBoxContainer{
+		width: 23%;
+	}
+}
